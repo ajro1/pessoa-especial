@@ -9,7 +9,27 @@ h1 {
 }
 
 p {
-   font-family: "Pretendard", sans-serif;
+   font-family: "pretendard", sans-serif;
    font-size: 40px;
    color: white
+}
+
+estrelas::before {
+  content: "★ ★ ★ ★ ★";
+  position: fixed;
+  bottom: -50px;
+  left: 50%;
+  font-size: 30px;
+  animation: subir 5s linear infinite;
+}
+
+@keyframes subir {
+  from {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-50%) translateY(-800px);
+    opacity: 0;
+  }
 }
