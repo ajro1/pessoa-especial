@@ -1,9 +1,9 @@
 body {
-  background-color: blue; /*Pode escolher outra cor se quiser*/
+  background-color: rgb(120, 146, 95);
 }
 
 h1 {
-  color: white; /*Pode escolher outra cor se quiser*/
+  color: rgb(209, 226, 195);
   text-align: center;
 }
 
