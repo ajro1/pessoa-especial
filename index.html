@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>www vírus clona cartão</title>
-    <link rel="stylesheet" href="css/estilo.css">
-  </head>
-  <body>
-    <iframe width="0" height="0"
-      src="https://www.youtube.com/embed/FvcCnFZeNvQ"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www vírus clona cartão</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
 
-    <h1> ⛤𝐐𝐮𝐞𝐫𝐢𝐝𝐨 𝐞 𝐚𝐦𝐚́𝐯𝐞𝐥 𝐋𝐲𝐧𝐧⛤ </h1>
-    <p> Querido Lynn, sou muito grato pela sua existência, obrigada por não desistir de mim mesmo quando te apresentei o rpg de nerd do Celbit
-      </p>
-      <p> Love uuuuuu beso, y beijo para nico também
-      </p>
-    <br>
-    <p>Xoxo: Alana Júlia Rodrigues de Oliveira</p>
-  </body>
-  <div class="estrelas">
+<body onclick="ativarSom()">
+
+  <!-- Música de fundo -->
+  <iframe id="musica" width="0" height="0"
+    src="https://www.youtube.com/embed/FvcCnFZeNvQ?autoplay=1&mute=1&loop=1&playlist=FvcCnFZeNvQ"
+    frameborder="0"
+    allow="autoplay">
+  </iframe>
+
+  <div class="conteudo">
+    <h1>⛤ Querido e amável Lynn ⛤</h1>
+
+    <p>
+     Querido Lynn, sou muito grato pela sua existência, obrigada por não desistir de mim mesma quando te apresentei o rpg de nerd do Celbit
+    </p>
+
+  <p>
+    Love uuuuuu beso, y beijo para nico também
+  </p>
+
+  
+    <p class="assinatura">
+      Xoxo: Alana Júlia Rodrigues de Oliveira
+    </p>
   </div>
+
+  <div class="estrelas"></div>
+
+  <script>
+    function ativarSom() {
+        let iframe = document.getElementById("musica");
+        iframe.src = iframe.src.replace("mute=1", "mute=0");
+      }
+    </script>
+
+</body>
 </html>
