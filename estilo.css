@@ -1,14 +1,15 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
 body {
-   background-color: rgb(120, 146, 95);
+  background: linear-gradient(to right, rgb(106, 155, 86), rgb(78, 100, 65));
 }
 
 h1 {
-  color: rgb(234, 241, 227);
- text-align: center; 
+  color: rgb(225, 235, 215);
+  text-align: center; 
 }
 
 p {
    font-family: "Pretendard", sans-serif;
-  font-size: 40px;
+   font-size: 40px;
+   color: white
 }
