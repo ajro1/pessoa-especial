@@ -1,10 +1,10 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
 body {
-  background: linear-gradient(to right, rgb(106, 155, 86), rgb(78, 100, 65));
+  background: linear-gradient(to right, rgb(110, 19, 19), rgb(218, 35, 35));
 }
 
 h1 {
-  color: rgb(225, 235, 215);
+  color: rgb(212, 212, 212);
   text-align: center; 
 }
 
