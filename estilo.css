@@ -1,5 +1,6 @@
 body {
-  background-color: blue;
+  background-color: rgb(87, 9, 9); 
+}
 
 h1 {
   color: white; 
@@ -7,24 +8,6 @@ h1 {
 }
 
 p {
-  font-family: Arial, sans-serif;
+  font-family: verdana;
   font-size: 20px;
-  background-color: #5e1f1f;
-  color: #ee7373;
-  padding: 2rem;
-}
-
-header {
-    background-color: #631212;
-    color: white;
-    padding: 2rem;
-    border-radius: 6px;
-    margin-bottom: 5.5rem;
-}
-
-main {
-    background-color: rgb(124, 26, 26);
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
