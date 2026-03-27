@@ -1,13 +1,33 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(87, 9, 9); 
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #5c1616;
+    padding: 2rem;
+}
+
+header {
+    background-color: #2e1a1a;
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
 }
 
 h1 {
-  color: white; 
-  text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+main {
+    background-color: rgb(71, 6, 6);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
